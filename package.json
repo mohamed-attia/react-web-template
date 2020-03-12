@@ -1,6 +1,6 @@
 {
-  "homePage": "https://github.com/mohamed-attia/react-template.git",
-  "name": "ultra-template",
+  "homePage": "https://github.com/mohamed-attia/react-web-template.git",
+  "name": "react-web-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pass -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
