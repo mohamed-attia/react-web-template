@@ -6,8 +6,9 @@ import { BrowserRouter, Route } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <Route>
+      
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Route>
           <div className="App">
             <NavBar />
             <Route exact path="/" component={Index}/>

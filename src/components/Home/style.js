@@ -6,7 +6,7 @@
 import styled from 'styled-components';
 export const HomeSection = styled.div `
 height: 500px;
-background: url('images/home-bg.jpg');
+background: url('./images/home-bg.jpg');
 background-size: cover;
 background-position: center;
 text-align: center;
